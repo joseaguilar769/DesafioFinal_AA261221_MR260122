@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SistemaManual.Structs
 {
-    internal class Libro
+    public class Libro
     {
     }
 }

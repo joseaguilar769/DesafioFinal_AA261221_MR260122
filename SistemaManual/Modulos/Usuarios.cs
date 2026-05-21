@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SistemaManual.Modulos
 {
-    internal class Usuarios
+    public class Usuarios
     {
     }
 }
