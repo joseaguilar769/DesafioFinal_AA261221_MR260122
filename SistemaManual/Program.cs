@@ -1,4 +1,5 @@
 ﻿using SistemaManual.Utilidades;
+using SistemaManual.Modulos;
 
 namespace SistemaManual
 {
@@ -19,7 +20,7 @@ namespace SistemaManual
                     switch (opcion)
                     {
                         case 1:
-                            Console.WriteLine("Módulo Libros en construcción...");
+                            Libros.MenuLibros();
                             break;
 
                         case 2:
