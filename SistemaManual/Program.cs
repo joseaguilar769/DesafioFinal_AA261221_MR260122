@@ -24,7 +24,7 @@ namespace SistemaManual
                             break;
 
                         case 2:
-                            Console.WriteLine("Módulo Usuarios en construcción...");
+                            Usuarios.MenuUsuarios();
                             break;
 
                         case 3:
