@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SistemaManual.Structs
+﻿namespace SistemaManual.Structs
 {
-    internal class Prestamo
+    public struct Prestamo
     {
+        public string CarneUsuario;
+        public string CodigoLibro;
+        public string FechaPrestamo;
+        public string FechaDevolucion;
+        public string Estado;
     }
 }
