@@ -28,7 +28,7 @@ namespace SistemaManual
                             break;
 
                         case 3:
-                            Console.WriteLine("Módulo Préstamos en construcción...");
+                            Prestamos.MenuPrestamos();
                             break;
 
                         case 4:
