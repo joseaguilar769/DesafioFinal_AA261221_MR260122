@@ -24,5 +24,41 @@ namespace SistemaManual.Utilidades
         {
             return cantidad >= 0;
         }
+
+        public static bool ValidarCarne(string carne)
+        {
+            if (string.IsNullOrWhiteSpace(carne))
+            {
+                return false;
+            }
+
+            if (carne.Length != 8)
+            {
+                return false;
+            }
+
+            foreach (char c in carne)
+            {
+                if (!char.IsDigit(c))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        public static bool ValidarCorreo(string correo)
+        {
+            if (string.IsNullOrWhiteSpace(correo))
+            {
+                return false;
+            }
+
+            int posicionArroba = correo.IndexOf('@');
+            int posicionPunto = correo.LastIndexOf('.');
+
+            return posicionArroba > 0 && posicionPunto > posicionArroba;
+        }
     }
 }
