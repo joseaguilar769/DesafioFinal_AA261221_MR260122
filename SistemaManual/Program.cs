@@ -1,8 +1,8 @@
-﻿using System;
+﻿using SistemaManual.Utilidades;
 
 namespace SistemaManual
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -10,13 +10,7 @@ namespace SistemaManual
 
             do
             {
-                Console.Clear();
-                Console.WriteLine("=== BIBLIOTECA UNIVERSITARIA ===");
-                Console.WriteLine("1. Módulo Libros");
-                Console.WriteLine("2. Módulo Usuarios");
-                Console.WriteLine("3. Módulo Préstamos");
-                Console.WriteLine("4. Salir");
-                Console.Write("Seleccione una opción: ");
+                Menus.MostrarMenuPrincipal();
 
                 try
                 {
