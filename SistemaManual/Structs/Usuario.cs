@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SistemaManual.Structs
+﻿namespace SistemaManual.Structs
 {
-    public class Usuario
+    public struct Usuario
     {
+        public string Carne;
+        public string NombreCompleto;
+        public string Carrera;
+        public string Correo;
+        public string Telefono;
+        public string Estado;
     }
 }
