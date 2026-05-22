@@ -46,9 +46,9 @@ namespace SistemaManual
                             break;
                     }
                 }
-                catch
+                catch (Exception ex)
                 {
-                    Console.WriteLine("Error: debe ingresar un número.");
+                    Console.WriteLine(ex.Message);
                     opcion = 0;
                 }
 
