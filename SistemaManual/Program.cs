@@ -7,6 +7,10 @@ namespace SistemaManual
     {
         static void Main(string[] args)
         {
+
+            //CARGAR DATOS AL INICIAR
+            Archivos.CargarDatos();
+
             int opcion;
 
             do
@@ -32,6 +36,8 @@ namespace SistemaManual
                             break;
 
                         case 4:
+                            //GUARDAR DATOS AL SALIR DEL SITEMA
+                            Archivos.GuardarDatos();
                             Console.WriteLine("Saliendo del sistema...");
                             break;
 
