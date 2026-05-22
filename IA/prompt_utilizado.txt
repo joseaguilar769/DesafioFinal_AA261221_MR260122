@@ -1,0 +1,4 @@
+﻿Hola buenas, quiero que actues como un programador de software y generes un código 
+completo en C# para una aplicación de consola de biblioteca. Debe incluir structs para 
+libros, usuarios y préstamos, permitir almacenar los datos en arreglos, registrar libros, 
+usuarios y simular los préstamos de forma directa en un único archivo Program.cs sin modularizar tanto.
