@@ -6,15 +6,19 @@ namespace SistemaManual.Utilidades
 {
     public static class Archivos
     {
-        private static string rutaLibros = "Data/libros.csv";
-        private static string rutaUsuarios = "Data/usuarios.txt";
-        private static string rutaPrestamos = "Data/prestamos.txt";
+        private static string basePath =
+       Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\..\Data"));
 
+        private static string rutaLibros = Path.Combine(basePath, "libros.csv");
+        private static string rutaUsuarios = Path.Combine(basePath, "usuarios.txt");
+        private static string rutaPrestamos = Path.Combine(basePath, "prestamos.txt");
         // -------------------------
         // CARGAR DATOS
         // -------------------------
         public static void CargarDatos()
         {
+            Directory.CreateDirectory(basePath);
+
             CargarLibros();
             CargarUsuarios();
             CargarPrestamos();
