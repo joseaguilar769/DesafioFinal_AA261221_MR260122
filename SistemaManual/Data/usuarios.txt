@@ -1,1 +1,4 @@
-12345678|Manuel Mejia|Tecnico|Manuelmejia@gmail.com|72941677|Activo
+20240001|Manuel Mejia|Ingeniería en Sistemas|manuelmejia@gmail.com|72941677|Activo
+20240002|Daniela Martínez|Diseño Gráfico|daniela.martinez@gmail.com|76543210|Activo
+20240003|Kevin Ramírez|Arquitectura|kevin.ramirez@gmail.com|71234567|Activo
+20240004|Andrea López|Técnico en Informática|andrea.lopez@gmail.com|78542536|Activo
