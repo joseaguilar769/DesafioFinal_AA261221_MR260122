@@ -41,7 +41,7 @@ El proyecto cumple con los requerimientos solicitados:
 
 * C#
 * .NET 10.0
-* Visual Studio 2022
+* Visual Studio 
 
 ---
 
@@ -148,7 +148,7 @@ Ctrl + F5
 Carné: 20240005
 Nombre Completo: Carlos Hernández
 Carrera: Ingeniería Industrial
-Correo: carlos.hernandez@correo.com
+Correo: carlos.hernandez@gmail.com
 Teléfono: 77889966
 ```
 
@@ -382,11 +382,7 @@ El sistema valida:
 
 # Video Demostrativo
 
-Colocar aquí el enlace del video:
 
-```text
-PEGAR ENLACE DEL VIDEO AQUÍ
-```
 
 ---
 
@@ -401,3 +397,32 @@ PEGAR ENLACE DEL VIDEO AQUÍ
 * Los datos son persistentes mediante archivos.
 
 * El sistema fue desarrollado con fines académicos.
+---
+
+# Proyecto IA
+
+# IA - Sistema de Recomendación de Biblioteca
+
+Proyecto desarrollado en C# como parte del sistema de biblioteca universitaria.
+
+## Descripción
+
+Este proyecto corresponde al módulo **IA**, encargado de realizar recomendaciones simples de libros mediante lógica básica implementada en consola.
+
+El objetivo es complementar el sistema manual de biblioteca con funcionalidades de apoyo inteligente para sugerencias y análisis de información.
+
+## Tecnologías utilizadas
+
+- C#
+- .NET
+- Consola
+- Visual Studio
+
+## Cómo ejecutar el proyecto
+
+1. Abrir la solución en Visual Studio.
+
+2. Seleccionar el proyecto:
+
+```text
+IA
